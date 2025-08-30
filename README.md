@@ -18,14 +18,16 @@ An MCP server that enables AI assistants to generate **production-ready React/TS
 * Context awareness of your project structure
 * Intelligent component generation
 * Support for templates, forms, and project analysis
-  📖 Full details: see [its README](servers/mcp-tsx-generator/README.md)
+  
+📖 Full details: see [its README](servers/mcp-tsx-generator/README.md)
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions from the community! 🎉
-Adding your own MCP server is simple:
+We welcome contributions from the community! 
+
+🎉 Adding your own MCP server is simple:
 
 1. Copy the template at [`servers/example-mcp-server`](servers/example-mcp-server)
 2. Rename it (e.g., `servers/my-mcp-server`)

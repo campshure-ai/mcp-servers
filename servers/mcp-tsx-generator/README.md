@@ -772,5 +772,6 @@ This MCP server represents the future of developer tools:
 - **Seamless Integration**: No context switching between tools
 - **Continuous Learning**: AI that learns from your codebase patterns
 - **Production Ready**: Enterprise-grade reliability and security
+- **Developer Experience**: Both human and code LLM now supported by better DX
 
 Ready to revolutionize your component development workflow? Install the MCP server and experience the future of AI-powered coding! 🚀
