@@ -1,0 +1,52 @@
+{
+  "name": "mcp-weather-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for comprehensive weather information using OpenWeatherMap API",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch & nodemon dist/index.js",
+    "prepare": "npm run build",
+    "test": "npm run build && node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "weather",
+    "forecast",
+    "openweathermap",
+    "ai",
+    "claude",
+    "assistant",
+    "weather-api"
+  ],
+  "author": "Campshure AI Community",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0",
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/campshure-ai/mcp-servers.git",
+    "directory": "servers/mcp-weather-server"
+  },
+  "homepage": "https://github.com/campshure-ai/mcp-servers/tree/main/servers/mcp-weather-server",
+  "bugs": {
+    "url": "https://github.com/campshure-ai/mcp-servers/issues"
+  }
+}

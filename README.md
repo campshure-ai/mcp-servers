@@ -1,6 +1,7 @@
 # 🌐 MCP Servers Collection
 
 This repository is a **community-driven collection of MCP (Model Context Protocol) servers**.
+
 Our mission: build an ecosystem of MCP servers that AI models can use as **routes for trained intents** — starting with **text classification** and expanding further.
 
 By contributing an MCP server, you’re helping create a playground of tools that allow AI systems to **do more, faster, and smarter**. 🚀
