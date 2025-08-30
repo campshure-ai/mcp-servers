@@ -1,0 +1,46 @@
+{
+  "name": "@campshure-ai/mcp-tsx-generator",
+  "version": "1.0.0",
+  "description": "MCP Server for TSX Vibe-Coding Tools",
+  "type": "module",
+  "main": "./dist/mcp-server.js",
+  "bin": {
+    "vibe-mcp-server": "./dist/mcp-server.js"
+  },
+  "scripts": {
+    "dev": "tsx src/mcp-server.ts",
+    "build": "rm -rf dist && tsc && chmod +x dist/mcp-server.js",
+    "build:win": "rmdir /s /q dist 2>nul & tsc & echo Built successfully",
+    "start": "node dist/mcp-server.js",
+    "test": "vitest",
+    "test:mcp": "node test-mcp.js",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write src/**/*.ts",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3",
+    "tsx": "^4.7.0",
+    "vitest": "^1.1.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/campshure-ai/mcp-servers/servers/mcp-tsx-generator.git"
+  },
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}

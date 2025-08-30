@@ -1,0 +1,3 @@
+servers/*/dist
+servers/*/node_modules
+servers/*/*.lock
